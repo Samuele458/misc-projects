@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/add.png</file>
+        <file>icons/delete.png</file>
+        <file>icons/deleteall.png</file>
+        <file>icons/edit.png</file>
+        <file>icons/folder.png</file>
+        <file>icons/options.png</file>
+        <file>icons/save.png</file>
+        <file>icons/search.png</file>
+        <file>icons/exit.png</file>
+        <file>Languages/english.dat</file>
+        <file>Languages/italian.dat</file>
+    </qresource>
+</RCC>
