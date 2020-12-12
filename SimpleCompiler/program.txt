@@ -1,0 +1,9 @@
+5 input x
+10 print y
+15 let y = y + 1
+20 if y <= x goto 10
+21 let z = 1
+25 print y
+30 let y = y - 1
+35 if y >= z goto 25 
+99 end
