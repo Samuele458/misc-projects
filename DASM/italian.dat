@@ -1,0 +1,42 @@
+Benvenuto in DASM (Dummy Assembler)|	DASM
+
+Creato da Samuele Girgenti.
+
+Dasm (Dummy Assembler) e' un assembler fittizio per un ipotetica CPU. L'assembler riceve in ingresso il codice assembly da un file e lo trasforma in un ipotetico linguaggio macchina che viene interpretato ed eseguito da un emulatore.
+
+In ogni file DASM possono essere presenti 2 sezioni:
+    .PROGRAM : Contiene le istruzioni
+    .DATA    : Contiene le dichiarazioni di stringhe o variabili
+	
+	SET DI ISTRUZIONI
+	
+	
+HLT   Fine dell'esecuzione
+INP	  Input di un'intero e memorizzazione in A
+OUT	  Output di A
+SOUT  Output di una stringa
+LDAC  Caricamento in A di un valore immediato
+LDBC  Caricamento in B di un valore immediato
+LDA   Caricamento di A dalla memoria
+LDB   Caricamento di B dalla memoria
+STA   Immagazzinamento di A in memoria
+STB   Immagazzinamento di B in memoria
+ADD   Somma tra A e B.
+MUL   Moltiplicazione di A per B.
+DIV   Divisione tra A e B.
+SUB   Sottrazione tra A e B.
+MOD   Resto della divisione intera di A per B.
+OR    OR bit a bit tra A e B.
+XOR   XOR bit a bit tra A e B.
+AND   AND bit a bit tra A e B.
+BCM   Complemento di A. 
+RSH   Bit shift verso destra di A.
+LSH   Bit shift verso sinistra di A.
+CMP   Confronto tra A e B per settare le FLAG.
+JE    A == B
+JNE   A != B
+JG    A > B
+JGE   A >= B
+JL    A < B
+JLE   A <= B
+JMP   Salto incondizionato|Scegli un'opzione:|Compila|Esegui|Compila ed esegui|Cambia lingua|Informazioni su DASM|Esci|File assembly da compilare: |Impossibile aprire il file "$".|Inserire il nome del file eseguibile: |Seleziona una lingua:|Torna indietro|Premi INVIO per continuare...|FILE COMPILATO CORRETTAMENTE.|___ESECUZIONE INIZIATA___|___ESECUZIONE TERMINATA___
