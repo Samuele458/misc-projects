@@ -43,4 +43,21 @@ There can be 2 sections in each DASM file:
 
 
 ## How to use DASM
+Clone this repository:
+```sh
+  $  git clone https://github.com/Samuele458/OldProjects.git
+```
+
+Build DASM:
+```sh
+  $  cd OldProjects/DASM
+  $  make
+```
+
+
+
+
+
+
+
 
