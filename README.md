@@ -1,2 +1,2 @@
-# OldProjects
-My old (small and incompleted) projects
+# misc-projects
+Old miscellaneous projects
