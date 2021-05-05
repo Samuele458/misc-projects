@@ -14,7 +14,7 @@ import java.awt.Font;
 public class CalculatorFrame extends JFrame {
     
     public static final String[] BUTTONS = {
-        "<", "C", "/", "*",
+        ">", "C", "/", "*",
         "7", "8", "9", "+",
         "4", "5", "6", "-",
         "1", "2", "3", "C",
@@ -28,6 +28,7 @@ public class CalculatorFrame extends JFrame {
         
         Font font = new Font(Font.SANS_SERIF, Font.BOLD, 24);
         
+        //calculator output field
         outputField = new JTextField(9);
         outputField.setHorizontalAlignment(SwingConstants.RIGHT);
         outputField.setMaximumSize(new Dimension(Integer.MAX_VALUE, outputField.getMinimumSize().height + 3000));
